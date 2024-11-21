@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Medo do Escuro</title>
+  </head>
+  <body>
+    <div class="container-painel">
+      <form
+        method="post"
+        action="../php/cadastrar.php"
+        id="cadastrar"
+        name="cadastrar"
+        class="painel-formulario"
+      >
+        <h1>Cadastrar-se</h1>
+        <div>
+          <input
+            type="text"
+            name="nome"
+            id="name"
+            placeholder="Digite seu nome"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="login"
+            id="login"
+            placeholder="Digite seu login"
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="Digite sua senha"
+          />
+        </div>
+        <input type="submit" value="Cadastre" />
+        <div>
+          <a href="../site/index.html">Home</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

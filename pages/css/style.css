@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.container-painel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../site/images/pic03.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.painel-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 10px black;
+  padding: 1rem;
+  border-radius: 10px;
+  background-image: url("../../site/images/pic01.jpg");
+}
+.painel-formulario > h1 {
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 3px 3px 4px black;
+}
+.painel-formulario > div {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 6px 6px 10px 4px black;
+}
+
+.painel-formulario > div > input::placeholder {
+  color: #000000;
+}
+
+.painel-formulario > div > input[type="text"],
+.painel-formulario > div > input[type="password"] {
+  width: 280px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  background-color: transparent;
+  outline: none;
+}
+
+.painel-formulario > input[type="submit"] {
+  padding: 0.5rem 2rem;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 900;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.painel-formulario > div > a {
+  text-decoration: none;
+}
+
+.painel-formulario > div > a {
+  color: #000000;
+  padding: 0.25rem;
+}
+
+.painel-formulario > div > a:visited {
+  color: #000000;
+}
